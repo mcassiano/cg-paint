@@ -1,9 +1,8 @@
-package sample;
+package com.mcassiano.cgpaint;
 
 import com.sun.javafx.geom.Point2D;
 import javafx.collections.FXCollections;
 import javafx.event.EventHandler;
-import javafx.event.EventType;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.geometry.Insets;

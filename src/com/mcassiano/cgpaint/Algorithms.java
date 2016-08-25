@@ -1,4 +1,4 @@
-package sample;
+package com.mcassiano.cgpaint;
 
 public class Algorithms {
 

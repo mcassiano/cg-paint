@@ -1,4 +1,4 @@
-package sample;
+package com.mcassiano.cgpaint;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,7 +10,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("canvas_scene.fxml"));
         primaryStage.setTitle("mPaint");
         primaryStage.setScene(new Scene(root, 600, 480));
         primaryStage.show();

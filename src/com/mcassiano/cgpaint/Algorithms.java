@@ -38,7 +38,7 @@ public class Algorithms {
         int x = x1;
         int y = y1;
 
-        callbacks.drawPoint(x1, y1);
+        callbacks.drawPoint(x, y);
 
         int rawDx = (x2 - x1);
         int rawDy = (y2 - y1);
@@ -71,7 +71,7 @@ public class Algorithms {
             p = 2 * dx - dy;
 
             const1 = 2 * dx;
-            const2 = 2 * (dy - dx);
+            const2 = 2 * (dx - dy);
 
             for (int i = 0; i < dy; i++) {
 
